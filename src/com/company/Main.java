@@ -83,9 +83,10 @@ class DrawingPanel extends Panel implements ActionListener
     {
         if(e.getSource() == left) { myRectangle.setX(-5); }
         if(e.getSource() == left_top){ myRectangle.setX(-5);myRectangle.setY(-5); }
-        if(e.getSource() == left_down){ myRectangle.setX(5);myRectangle.setY(5); }
-        if(e.getSource() == right_top){ myRectangle.setY(-5);myRectangle.setX(-5); }
+        if(e.getSource() == left_down){ myRectangle.setX(-5);myRectangle.setY(5); }
+        if(e.getSource() == right_top){ myRectangle.setY(-5);myRectangle.setX(5); }
         if(e.getSource() == right_down){ myRectangle.setY(5);myRectangle.setX(5); }
+
 
 
 
